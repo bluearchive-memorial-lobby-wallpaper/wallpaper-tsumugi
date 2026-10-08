@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "kind": "pipeline-binary-package",
+  "immutable": true,
+  "variantId": "default",
+  "canonicalId": "tsumugi-default",
+  "studentId": "tsumugi",
+  "runId": "run-000000000166",
+  "runInfo": {
+    "alias": "create-prepare-and-acceptance",
+    "stages": [
+      "resolve-identity",
+      "create-repository",
+      "initialize-template",
+      "acquire-resources",
+      "prepare-assets",
+      "validate-structure",
+      "generate-description",
+      "build",
+      "static-test",
+      "browser",
+      "preview",
+      "visual-metadata",
+      "wallpaper-engine",
+      "package-check"
+    ]
+  },
+  "versionTag": "v1.0.0",
+  "projectId": "wallpaper-tsumugi",
+  "package": {
+    "name": "tsumugi-wallpaper",
+    "version": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "assets/index-BjdFQNHs.js",
+      "sha256": "cdba5d9b649d9e47706607abaaa152205afe4d7f44bfb762a9a9cf9e92b97a95",
+      "size": 151106
+    },
+    {
+      "path": "assets/index-Dvrd4XH3.css",
+      "sha256": "7edd305a4bec7d64c5dd9193116f29e99151cbc63cf52bd0f2ecf1be9e02bcf6",
+      "size": 11894
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_1_1.ogg",
+      "sha256": "1ec39b69aef1fa6ee9194e3e6ced3a5a63358faa9e8b7606ef7455d094c5c6e1",
+      "size": 29516
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_1_2.ogg",
+      "sha256": "1662dc82893afb02f23757c6d59e80284ddd237b3308a7146f0f4d581b2fe416",
+      "size": 37999
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_2_1.ogg",
+      "sha256": "bb495f8a099ced9e588ced5ff67a3bf30bcd9865d9d54dffd76d703d2abfd990",
+      "size": 15963
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_2_2.ogg",
+      "sha256": "752952880c0ec432e759d86e9170c0ef2572f3d5a0ba496bfa61ca7eb3ffed2f",
+      "size": 32768
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_3_1.ogg",
+      "sha256": "39a8c919a85e905cd33f606a65dd9ccc9f80f8fbf1068917e51f8ea2d939efc1",
+      "size": 27900
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_3_2.ogg",
+      "sha256": "cfac05e3ab64348b4a8e42f3c8a0a048480ef0885d81cc46880bf4a7585d2cb4",
+      "size": 43942
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_4_1.ogg",
+      "sha256": "1200437fd6286c9afd9f854d8eba56e6538bb15f1931161ba3693156649687d9",
+      "size": 19128
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_4_2.ogg",
+      "sha256": "0aa6ed128abddd64aceabd5af8b3726cf5df15196043f29d88485d80c2b727a0",
+      "size": 25009
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_5_1.ogg",
+      "sha256": "91a567a336713ec7b5e1e558ffa8ed202de8c522658dd356462cef51e9e7b789",
+      "size": 30684
+    },
+    {
+      "path": "assets/tsumugi/audio/ja/ch0252_memoriallobby_5_2.ogg",
+      "sha256": "c441b080c5507395d9a5775767c8d2f3736b9a6a648cea7a881da09469e706a5",
+      "size": 32061
+    },
+    {
+      "path": "assets/tsumugi/bgm/my-character-bgm.flac",
+      "sha256": "4e65794587238c26aa35ec6c78cfe9fdd6b255145560f0b3bb77acc535e62dd7",
+      "size": 74913
+    },
+    {
+      "path": "assets/tsumugi/model-4k/CH0252_home_2.png",
+      "sha256": "7f2b5d177e64e6300cf2540de4f61eb14a46ec8e6ce567026e70871cf4d50da1",
+      "size": 8031984
+    },
+    {
+      "path": "assets/tsumugi/model-4k/CH0252_home_3.png",
+      "sha256": "ffdd8dbfd327ef646d6426d99ddb3e0a42251b243b878029d469f124a05a8a05",
+      "size": 1813510
+    },
+    {
+      "path": "assets/tsumugi/model-4k/CH0252_home.png",
+      "sha256": "0d64ca4b8d4f568d9524e3ee6cef934cf11745d56164928e54b2ff307e361308",
+      "size": 12833920
+    },
+    {
+      "path": "assets/tsumugi/model-4k/my-character.atlas",
+      "sha256": "e35dd4f4887c97c20c2d8764f4d05d1f8f352ea954f11d3efe03d934f872abd4",
+      "size": 12420
+    },
+    {
+      "path": "assets/tsumugi/model-4k/my-character.skel",
+      "sha256": "23bbf653286f50d7eaeae1d96f58f16b20026df71bfa58293683625235d1bc89",
+      "size": 814978
+    },
+    {
+      "path": "assets/tsumugi/model-8k/CH0252_home_2.png",
+      "sha256": "549bbeb922a0502ff585d6828a53c259f08cc1e704330e158822235793fed0a4",
+      "size": 24406256
+    },
+    {
+      "path": "assets/tsumugi/model-8k/CH0252_home_3.png",
+      "sha256": "5ee0739ed261f0baf490cb305051408fb889ccc6baaf1362391821d9508bea8a",
+      "size": 5665109
+    },
+    {
+      "path": "assets/tsumugi/model-8k/CH0252_home.png",
+      "sha256": "01b0203e7684cd29534b3720500d32042e4f1dc542f763bed32be62bbbd7d434",
+      "size": 39102466
+    },
+    {
+      "path": "assets/tsumugi/model-8k/my-character.atlas",
+      "sha256": "7b4fe0d8a93cf3d37ca0a7994894021c1f10cb4f3b6f7e4a52bafaad862767d3",
+      "size": 12791
+    },
+    {
+      "path": "assets/tsumugi/model-8k/my-character.skel",
+      "sha256": "23bbf653286f50d7eaeae1d96f58f16b20026df71bfa58293683625235d1bc89",
+      "size": 814978
+    },
+    {
+      "path": "assets/tsumugi/model/CH0252_home_2.png",
+      "sha256": "7cdb43026e9011fe46d0a5ddc1c87d377438171dedf040000d94eee3f0f1aa73",
+      "size": 2082539
+    },
+    {
+      "path": "assets/tsumugi/model/CH0252_home_3.png",
+      "sha256": "aa06f79b9fb0ff91bfbedbe6350498ba744d8ceb6952e5167bcd05a1c08a3f93",
+      "size": 511282
+    },
+    {
+      "path": "assets/tsumugi/model/CH0252_home.png",
+      "sha256": "8085435aa9dd36b6bf4a7183d2973dfb3aa480e4a6b952d5ba93f23dc316b984",
+      "size": 2521885
+    },
+    {
+      "path": "assets/tsumugi/model/my-character.atlas",
+      "sha256": "016309a47bc3cdf93474bdf342fd76ee1cd82a9b6109662bf6407f433857820f",
+      "size": 10605
+    },
+    {
+      "path": "assets/tsumugi/model/my-character.skel",
+      "sha256": "23bbf653286f50d7eaeae1d96f58f16b20026df71bfa58293683625235d1bc89",
+      "size": 814978
+    },
+    {
+      "path": "index.html",
+      "sha256": "25cecd45e785cd3729e4576daa5553755dda2694478b0837ce03048673710bad",
+      "size": 577
+    },
+    {
+      "path": "logging-bootstrap.js",
+      "sha256": "241c98017502d02e3f2dfc874d3bd57a7899d4da6a45c21090bef3953cc98eef",
+      "size": 7693
+    },
+    {
+      "path": "OFFLINE-README.txt",
+      "sha256": "3835985011c059afb574911f0a699bef3830d163c472557294969d4d1d3134ec",
+      "size": 1178
+    },
+    {
+      "path": "preview.gif",
+      "sha256": "72b5ad2341cc651dad81464984724c65e95fb852d17e3eeea35d3353f2599cde",
+      "size": 749353
+    },
+    {
+      "path": "project.json",
+      "sha256": "bcd23663ffe85a6674522a9eb6a04c1e575e34f67e1214627993e2b68fa3df18",
+      "size": 16397
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "aa6382fc728b8ecdf735dc4c5945267e69e3d404320ba873eb7ed58c6d035db1",
+      "size": 1507
+    },
+    {
+      "path": "vendor/spine-webgl-4.2.js",
+      "sha256": "faccf252486de234c69a045aa6024b6688ded578eff09103607adfaedd7752b6",
+      "size": 554544
+    }
+  ],
+  "contentDigest": "37d1d417022efdff7d9c9a163046b67251540c47f64872ad597c745474ff73f5",
+  "manifestDigest": "77aebc5eaf7bfcf93dbee1b98923ec708a2a0dd6930c34250747bec72d2a32c3"
+}
