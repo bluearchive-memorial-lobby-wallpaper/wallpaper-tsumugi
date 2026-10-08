@@ -5,7 +5,7 @@
   "variantId": "default",
   "canonicalId": "tsumugi-default",
   "studentId": "tsumugi",
-  "runId": "run-000000000166",
+  "runId": "run-000000000171",
   "runInfo": {
     "alias": "create-prepare-and-acceptance",
     "stages": [
@@ -22,7 +22,16 @@
       "preview",
       "visual-metadata",
       "wallpaper-engine",
-      "package-check"
+      "package-check",
+      "gate-publish",
+      "official-editor-pre-submit",
+      "official-editor-ui-pre-submit",
+      "official-editor-submit",
+      "tag-workshop",
+      "publish-repository",
+      "push-github",
+      "add-to-collection",
+      "release-finalize"
     ]
   },
   "versionTag": "v1.0.0",
@@ -94,28 +103,28 @@
     },
     {
       "path": "assets/tsumugi/bgm/my-character-bgm.flac",
-      "sha256": "4e65794587238c26aa35ec6c78cfe9fdd6b255145560f0b3bb77acc535e62dd7",
-      "size": 74913
+      "sha256": "55681bcd313756dbca51161db168f538ddf50fcd0c7129a32129a7619f36b7da",
+      "size": 1206881
     },
     {
       "path": "assets/tsumugi/model-4k/CH0252_home_2.png",
-      "sha256": "7f2b5d177e64e6300cf2540de4f61eb14a46ec8e6ce567026e70871cf4d50da1",
-      "size": 8031984
+      "sha256": "7cdb43026e9011fe46d0a5ddc1c87d377438171dedf040000d94eee3f0f1aa73",
+      "size": 2082539
     },
     {
       "path": "assets/tsumugi/model-4k/CH0252_home_3.png",
-      "sha256": "ffdd8dbfd327ef646d6426d99ddb3e0a42251b243b878029d469f124a05a8a05",
-      "size": 1813510
+      "sha256": "aa06f79b9fb0ff91bfbedbe6350498ba744d8ceb6952e5167bcd05a1c08a3f93",
+      "size": 511282
     },
     {
       "path": "assets/tsumugi/model-4k/CH0252_home.png",
-      "sha256": "0d64ca4b8d4f568d9524e3ee6cef934cf11745d56164928e54b2ff307e361308",
-      "size": 12833920
+      "sha256": "8085435aa9dd36b6bf4a7183d2973dfb3aa480e4a6b952d5ba93f23dc316b984",
+      "size": 2521885
     },
     {
       "path": "assets/tsumugi/model-4k/my-character.atlas",
-      "sha256": "e35dd4f4887c97c20c2d8764f4d05d1f8f352ea954f11d3efe03d934f872abd4",
-      "size": 12420
+      "sha256": "016309a47bc3cdf93474bdf342fd76ee1cd82a9b6109662bf6407f433857820f",
+      "size": 10605
     },
     {
       "path": "assets/tsumugi/model-4k/my-character.skel",
@@ -124,23 +133,23 @@
     },
     {
       "path": "assets/tsumugi/model-8k/CH0252_home_2.png",
-      "sha256": "549bbeb922a0502ff585d6828a53c259f08cc1e704330e158822235793fed0a4",
-      "size": 24406256
+      "sha256": "7cdb43026e9011fe46d0a5ddc1c87d377438171dedf040000d94eee3f0f1aa73",
+      "size": 2082539
     },
     {
       "path": "assets/tsumugi/model-8k/CH0252_home_3.png",
-      "sha256": "5ee0739ed261f0baf490cb305051408fb889ccc6baaf1362391821d9508bea8a",
-      "size": 5665109
+      "sha256": "aa06f79b9fb0ff91bfbedbe6350498ba744d8ceb6952e5167bcd05a1c08a3f93",
+      "size": 511282
     },
     {
       "path": "assets/tsumugi/model-8k/CH0252_home.png",
-      "sha256": "01b0203e7684cd29534b3720500d32042e4f1dc542f763bed32be62bbbd7d434",
-      "size": 39102466
+      "sha256": "8085435aa9dd36b6bf4a7183d2973dfb3aa480e4a6b952d5ba93f23dc316b984",
+      "size": 2521885
     },
     {
       "path": "assets/tsumugi/model-8k/my-character.atlas",
-      "sha256": "7b4fe0d8a93cf3d37ca0a7994894021c1f10cb4f3b6f7e4a52bafaad862767d3",
-      "size": 12791
+      "sha256": "016309a47bc3cdf93474bdf342fd76ee1cd82a9b6109662bf6407f433857820f",
+      "size": 10605
     },
     {
       "path": "assets/tsumugi/model-8k/my-character.skel",
@@ -189,8 +198,8 @@
     },
     {
       "path": "preview.gif",
-      "sha256": "72b5ad2341cc651dad81464984724c65e95fb852d17e3eeea35d3353f2599cde",
-      "size": 749353
+      "sha256": "dc75491b939fe3e66a8ab2b6b89372da15acab39af61c8c9538213884a69cced",
+      "size": 800725
     },
     {
       "path": "project.json",
@@ -208,6 +217,6 @@
       "size": 554544
     }
   ],
-  "contentDigest": "37d1d417022efdff7d9c9a163046b67251540c47f64872ad597c745474ff73f5",
-  "manifestDigest": "77aebc5eaf7bfcf93dbee1b98923ec708a2a0dd6930c34250747bec72d2a32c3"
+  "contentDigest": "e05ae1eca67c415fb4ae7e48e40ea619a1a9cf4c90b92f8b8cd274d7fa7d17b4",
+  "manifestDigest": "81ec3ef49cfb3f0dfe6d3104626655356733972ffb4af9c519dfbd3d1ba89248"
 }
